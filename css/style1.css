@@ -1,0 +1,41 @@
+
+/* Universal Selector* 
+*{
+    color: green;
+} */
+
+
+/*Type Selector => all tag */
+
+/* class Selector*/
+.para{
+    font-size: 40px;
+    color: rgb(191, 4, 101);
+}
+.heading1{
+    background-color: yellow;
+}
+.para1{
+    background-color: rgb(2, 79, 2);
+    color: white;
+    font-size: 35px;
+}
+.abc{
+    font-size: 30px;
+    background-color: rgb(106, 227, 219);
+}
+
+/* ID Selector*/
+
+#hello{
+   /* background-color: chocolate; */
+    font-size: 60px;
+    color: aquamarine;
+}
+/*Parent child Selector  ul is parent li is child */
+ul>li{
+    list-style-type: square;
+}
+p,h1{
+    color: red;
+}
