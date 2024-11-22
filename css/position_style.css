@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(185, 220, 115);
+    border: 2px solid green;
+}
+.box1{
+    position: static;
+
+}
+.box2{
+    position: relative;
+    left: 300px;
+    top: 30px;
+    
+}
