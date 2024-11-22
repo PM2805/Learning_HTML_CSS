@@ -1,0 +1,42 @@
+/*body{
+    background-color: rgb(238, 143, 228);
+    background-image: url("/images/pic3.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:top ;
+    
+} */
+h1{
+    margin-left: 50%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    
+}
+#div1{
+    height: 250px;
+    background-color: yellowgreen;
+    background-image: linear-gradient(to right bottom, red,blue,yellow,green,violet);
+}
+#div2{
+    height: 250px;
+    background-color: yellowgreen;
+    background-image: linear-gradient(to right, black, green,yellow,red);
+}
+
+#div3{
+    height: 500px;
+    background-color: yellowgreen;
+    background-image:radial-gradient(circle, rgb(119, 5, 5), green,yellow,rgb(16, 9, 9));
+}
+
+#div4{
+    height: 500px;
+    background-color: yellowgreen;
+    background-image:conic-gradient(yellow,red,yellowgreen,rgb(182, 5, 149),green)
+}
+#div5{
+    height: 500px;
+    background-color: yellowgreen;
+    background-image:conic-gradient(blue 50deg, red 180deg,pink 20deg,green 25deg,yellow)
+}
