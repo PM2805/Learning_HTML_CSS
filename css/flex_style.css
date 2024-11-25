@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    /*Space evenly  j-s=center  x-axis ....aling-item=y-axis center*/
+    justify-content: space-evenly;
+}
+.flex-items{
+   
+    box-shadow: 3px 5px 10px green;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    color: rgb(7, 1, 1);
+    text-align: center;
+    font-size: 50px;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+}

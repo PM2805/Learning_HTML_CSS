@@ -1,14 +1,14 @@
 .b_shadow{
     width: 300px;
     height: 300px;
-    box-shadow: 5px 6px 15px red;
+    box-shadow: 5px 10px 20px rgb(204, 255, 0);
 }
 .b_shadow1{
     width: 500px;
     height: 500px;
     filter: drop-shadow(15px 9px 10px rgb(194 120 14));
 }
-.d_shadow2{
-    width: 500px;
-    height: 500px;
+.b_shadow2{
+    box-shadow: 25px 20px 50px yellow;
+
 }
