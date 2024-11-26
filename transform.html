@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate Property</title>
+    <style>
+        .box{
+            background-color: yellow;
+            border-radius: 10px;
+            height: 150px;
+            width: 150px;
+            float: left;
+            margin-left: 40px;
+            transition: 3s;
+            color: red;
+            border: 2px solid green;
+            box-shadow: 3px 5px 15px green;
+            text-align: center;
+            font-weight: 800;
+            text-shadow: 2px 4px 10px blue;
+            line-height: 150px;
+        }
+        .box1:hover{
+            transform: translate(125px, 125px);
+        }
+        .box2:hover{
+            transform: translateX(35px);
+        }
+        .box3:hover{
+            transform: translateY(55px);
+        }
+        .box4:hover{
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <div class="box box1"> TranslateX & Y</div>
+        <div class="box box2">TranslateX</div>
+        <div class="box box3">TranslateY</div>
+        <div class="box box4">Rotate</div>
+    </div>
+</body>
+</html>
